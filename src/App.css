@@ -1,10 +1,23 @@
 *{
-  background-color: #808080;
+  background-color: #0f0f0f;
+}
+.texto{
+  display: flex;
+ margin-left: 80px;
+}
+img{
+  height: 150px;
+  width: 150px;
 }
 .App {
   text-align: center;
 }
-
+h2{
+  color: #fffeff;
+}
+.texto1{
+  border-left: 2px solid #87150a;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

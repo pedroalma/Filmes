@@ -3,12 +3,14 @@ import './Corpo.css'
 function Corpo({fil}){
     return(
         <>
-         {fil.map((f) =>
-         <div>
+        <div className="div-corpo">
+          {fil.map((f) =>
+          <div>
             <Exibe img={f.img} nome={f.nome} ano={f.ano} />
-         </div>
-         )}
-        </>
+          </div>
+          )}
+        </div>
+       </> 
     )
 }
-export default Corpo;
+export default Corpo

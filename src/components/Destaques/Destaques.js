@@ -1,13 +1,14 @@
 import Corpo from "../Corpo/Corpo"
+import hom from "../img/homem.jpg"
 import imi from '../img/imitacao.jpg'
-function Destaques(){
-    const destaques = [
-        {img:imi,nome:"O Jogo da Imitação",ano:"2014"}
-    ]
-
+function Destaques(filmesf){
     return( 
       <>
-        <Corpo fil={destaques}/>
+      {filmesf.map((f) =>
+      <div>
+        
+      </div>
+      )}
       </>
     )
 }

@@ -3,9 +3,9 @@ function Exibe({img , nome , ano }){
     return(
         <>
          <img src={img} alt="" />
-         <h3>{nome}</h3>
-         <h4>{ano}</h4>
-        </>
+         <h5>{nome}</h5>
+         <h5>{ano}</h5>
+         </>
     )
 }
 export default Exibe
