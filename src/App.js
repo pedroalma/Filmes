@@ -17,6 +17,19 @@ import bas from '../src/components/img/hans.jpg'
 import dj from '../src/components/img/django.jpg'
 import nove from '../src/components/img/1917.jpg'
 import dita from '../src/components/img/dita.jpg'
+import arre from '../src/components/img/arre.jpg'
+import ch from '../src/components/img/ch.jpg'
+import god from '../src/components/img/god.jpg'
+import the from '../src/components/img/the.jpg'
+import noveum from '../src/components/img/nove.jpg'
+import ojus from '../src/components/img/ojus.jpg'
+import gar from '../src/components/img/gar.jpg'
+import pe from '../src/components/img/pe.jpg'
+import jus from '../src/components/img/jus.jpg'
+import good from '../src/components/img/good.jpg'
+import im from '../src/components/img/im.jpg'
+import fron from '../src/components/img/fron.jpg'
+import hanninal from '../src/components/img/hannibal.jpg'
 
 import './App.css'
 
@@ -45,14 +58,36 @@ function App() {
     {img:osmerc2 ,nome:"Os Mercenários 2",ano:"2012"},
     {img:osmerc3 ,nome:"Os Mercenários 3",ano:"2014"},
    ]
+   const Destaques4 =[
+    {img:arre ,nome:"Arcanjo Renegado",ano:"2020"},
+    {img:ch ,nome:"Chernobyl",ano:"2019"},
+    {img:god ,nome:"Godfather of Harlem",ano:"2019"},
+    {img:the,nome:"The Boys",ano:"2019"},
+    {img:noveum ,nome:"9-1-1",ano:"2018"},
+    {img:ojus ,nome:"O Justiceiro",ano:"2017"},
+   ]
+   const Destaques5 =[
+    {img:gar ,nome:"O Gambito da Rainha",ano:"2020"},
+    {img:pe ,nome:"Pé na Cova",ano:"2013"},
+    {img:jus ,nome:"Justiça Implacável",ano:"2011"},
+    {img:good ,nome:"The Good Doctor: O Bom Doutor",ano:"2017"},
+    {img:im ,nome:"Impuros",ano:"2018"},
+    {img:fron ,nome:"Operação Fronteira - Brasil",ano:"2022"},
+    {img:hanninal ,nome:"Hannibal",ano:"2013"},
+   ]
   return (
     <div className="App">
      <div className='texto'>
-      <h2 className='texto1'>Destaques</h2>
+      <h2 className='texto1'>Filmes</h2>
      </div>
       <Corpo fil={Destaques1}/>
       <Corpo fil={Destaques2}/>
       <Corpo fil={Destaques3}/>
+      <div className='texto'>
+        <h2 className='texto1'>Series</h2>
+      </div>
+      <Corpo fil={Destaques4}/>
+      <Corpo fil={Destaques5}/>
     </div>
   )
 }

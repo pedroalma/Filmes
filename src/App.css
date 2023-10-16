@@ -1,6 +1,9 @@
 *{
   background-color: #0f0f0f;
 }
+h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .texto{
   display: flex;
  margin-left: 80px;
